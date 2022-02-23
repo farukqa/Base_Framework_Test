@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Regression_Test">
+        <classes>
+            <class name="MYQC_TestCase_Classes.TC001_MYQC_Login_Selection_Button_Text"/>
+            <class name="MYQC_TestCase_Classes.TC002_MYQC_Login_Selection_Test"/>
+            <class name="MYQC_TestCase_Classes.TC003_MYQC_Prepaid_Login_Test"/>
+            <class name="MYQC_TestCase_Classes.tc004_MYQCTitle_Test"/>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
